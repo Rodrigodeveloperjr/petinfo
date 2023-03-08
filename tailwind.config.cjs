@@ -8,7 +8,9 @@ module.exports = {
       colors: {
         "custom-gray": {
           "1": "#212529",
+          "4": "#868E96",
           "6": "#E9ECEF",
+          "8": "#F8F9FA",
           "9": "#FCFEFF",
           "10": "#D9D9D9",
           "11": "#1E1E1E",
