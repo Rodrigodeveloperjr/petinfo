@@ -1,5 +1,7 @@
+import { FormSignUp } from "./components/FormSignUp";
+
 const App = () => {
-  return <div></div>;
+  return <FormSignUp />;
 };
 
 export { App };
