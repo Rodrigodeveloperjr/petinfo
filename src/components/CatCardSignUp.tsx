@@ -3,7 +3,7 @@ import cat3 from "../assets/Rectangle 5.svg";
 import cat4 from "../assets/Rectangle 4.svg";
 import cat from "../assets/Rectangle 2.svg";
 
-const CatCard = () => {
+const CatCardSignUp = () => {
   return (
     <div className="w-full max-w-320 h-419 ml-0 mb-20 md:ml-28">
       <h1 className="text-custom-gray-1 font-medium text-4xl">Petinfo</h1>
@@ -33,4 +33,4 @@ const CatCard = () => {
   );
 };
 
-export { CatCard };
+export { CatCardSignUp };

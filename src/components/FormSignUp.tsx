@@ -3,7 +3,7 @@ import { Input } from "./Input";
 
 const FormSignUp = () => {
   return (
-    <form className="w-full max-w-369 h-672 flex flex-col justify-between bg-custom-gray-9 border border-custom-gray-10 rounded py-11 px-6 box-border">
+    <div className="w-full max-w-369 h-672 flex flex-col justify-between bg-custom-gray-9 border border-custom-gray-10 rounded py-11 px-6 box-border">
       <div className="h-8 flex flex-row items-center justify-between">
         <h2 className="text-custom-gray-11 font-medium text-xl">Cadastro</h2>
         <a className="w-full max-w-160 h-8 flex flex-row items-center border border-custom-gray-6 rounded px-2 text-custom-gray-1 font-medium text-sm cursor-pointer hover:bg-custom-gray-8">
@@ -11,7 +11,7 @@ const FormSignUp = () => {
         </a>
       </div>
 
-      <div>
+      <form>
         <Input label="Usuário" placeholder="Digite seu usuário aqui" />
         <Input label="Email" placeholder="Digite seu email aqui" />
         <Input
@@ -36,8 +36,8 @@ const FormSignUp = () => {
             hoverBackground="bg-custom-gray-8"
           />
         </div>
-      </div>
-    </form>
+      </form>
+    </div>
   );
 };
 
