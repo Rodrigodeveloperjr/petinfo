@@ -1,8 +1,7 @@
-import { CatCard } from "./components/CatCard";
-import { FormSignUp } from "./components/FormSignUp";
+import { AllRoutes } from "./routes";
 
 const App = () => {
-  return <CatCard />;
+  return <AllRoutes />;
 };
 
 export { App };
