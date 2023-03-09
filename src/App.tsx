@@ -1,7 +1,8 @@
+import { CatCard } from "./components/CatCard";
 import { FormSignUp } from "./components/FormSignUp";
 
 const App = () => {
-  return <FormSignUp />;
+  return <CatCard />;
 };
 
 export { App };
