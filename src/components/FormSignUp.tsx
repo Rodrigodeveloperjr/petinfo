@@ -6,7 +6,7 @@ const FormSignUp = () => {
     <form className="w-full max-w-369 h-672 flex flex-col justify-between bg-custom-gray-9 border border-custom-gray-10 rounded py-11 px-6 box-border">
       <div className="h-8 flex flex-row items-center justify-between">
         <h2 className="text-custom-gray-11 font-medium text-xl">Cadastro</h2>
-        <a className="w-full max-w-160 h-8 flex flex-row items-center border border-custom-gray-6 rounded px-2 text-custom-gray-1 font-medium text-sm">
+        <a className="w-full max-w-160 h-8 flex flex-row items-center border border-custom-gray-6 rounded px-2 text-custom-gray-1 font-medium text-sm cursor-pointer hover:bg-custom-gray-8">
           Voltar para o login
         </a>
       </div>
@@ -26,12 +26,14 @@ const FormSignUp = () => {
             background="bg-custom-brand-1"
             borderColor="border-custom-brand-1"
             textColor="text-custom-gray-9"
+            hoverBackground="bg-custom-brand-2"
           />
           <Button
             text="Voltar para o login"
             background="bg-custom-gray-9"
             borderColor="border-custom-gray-6"
             textColor="text-custom-gray-1"
+            hoverBackground="bg-custom-gray-8"
           />
         </div>
       </div>
