@@ -1,13 +1,12 @@
-import { FormSignIn } from "../components/FormSignIn";
 import { Routes, Route } from "react-router-dom";
-import { PageSignUp } from "../pages/PageSignUp";
-import { CatCardSignIn } from "../components/CatCardSignIn";
+import { SignIn } from "../pages/SignIn";
+import { SignUp } from "../pages/SignUp";
 
 const AllRoutes = () => {
   return (
     <Routes>
-      <Route path="/" element={<PageSignUp />} />
-      <Route path="/signin" element={<CatCardSignIn />} />
+      <Route path="/" element={<SignUp />} />
+      <Route path="/signin" element={<SignIn />} />
     </Routes>
   );
 };
