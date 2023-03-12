@@ -5,7 +5,7 @@ import cat from "../assets/Rectangle 2.svg";
 
 const CatCardSignUp = () => {
   return (
-    <div className="w-full max-w-320 h-419 ml-0 mb-20 md:ml-28">
+    <div className="w-full max-w-xs h-419 ml-0 mb-20 md:ml-28">
       <h1 className="text-custom-gray-1 font-medium text-4xl">Petinfo</h1>
 
       <h2 className="text-custom-brand-1 font-semibold text-3xl py-6">
