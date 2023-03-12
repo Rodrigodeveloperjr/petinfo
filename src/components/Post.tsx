@@ -49,7 +49,7 @@ const Post = () => {
         maior...
       </p>
 
-      <a className="text-custom-brand-1 font-medium font-base cursor-pointer hover:underline">
+      <a className="text-custom-brand-1 font-medium text-base cursor-pointer hover:underline">
         Acessar publicação
       </a>
     </div>
