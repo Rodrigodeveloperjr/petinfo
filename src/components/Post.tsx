@@ -3,8 +3,8 @@ import { Button } from "./Button";
 
 const Post = () => {
   return (
-    <div className="w-full max-w-800 h-60 flex flex-col justify-start items-start">
-      <div className="w-full flex flex-row">
+    <div className="w-full max-w-800 flex flex-col justify-start items-start mb-16">
+      <div className="w-full flex flex-col md:flex-row">
         <div className="w-full flex flex-row items-center pb-6">
           <div className="flex flex-row items-center">
             <img src={photo} className="w-8 h-8 rounded-full" />
@@ -18,7 +18,7 @@ const Post = () => {
           </p>
         </div>
 
-        <div className="w-full max-w-127 h-8 flex flex-row justify-between items-center">
+        <div className="w-full max-w-127 h-8 flex flex-row justify-between items-center pb-4 md:pb-0">
           <Button
             text="Editar"
             background="bg-custom-gray-9"

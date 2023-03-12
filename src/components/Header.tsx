@@ -3,7 +3,7 @@ import { Button } from "./Button";
 
 const Header = () => {
   return (
-    <header className="w-full max-w-603 h-138 flex flex-row justify-between items-center">
+    <header className="w-full max-w-603 h-138 flex flex-col justify-around items-center mx-auto px-5 sm:flex-row sm:justify-between">
       <h1 className="text-custom-gray-1 font-medium text-2xl">Petinfo</h1>
 
       <div className="w-full max-w-205 flex flex-row justify-between items-center">
