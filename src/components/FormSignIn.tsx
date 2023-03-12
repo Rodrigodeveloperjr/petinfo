@@ -1,7 +1,10 @@
+import { useNavigate } from "react-router-dom";
 import { Button } from "./Button";
 import { Input } from "./Input";
 
 const FormSignIn = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="w-full max-w-369 h-600 flex flex-col justify-around bg-custom-gray-9 border border-custom-gray-10 rounded py-11 px-6 box-border">
       <h2 className="text-custom-gray-1 font-medium text-xl">Login</h2>
@@ -17,6 +20,7 @@ const FormSignIn = () => {
             borderColor="border-custom-brand-1"
             textColor="text-custom-gray-9"
             hoverBackground="bg-custom-brand-2"
+            maxWidth="max-w-321"
           />
           <div className="h-82 flex flex-col justify-between items-center my-6 text-center">
             <p className="text-custom-gray-1 font-medium text-sm">
@@ -32,6 +36,8 @@ const FormSignIn = () => {
             borderColor="border-custom-gray-6"
             textColor="text-custom-gray-1"
             hoverBackground="bg-custom-gray-8"
+            maxWidth="max-w-321"
+            onClick={() => navigate("/")}
           />
         </div>
       </form>
