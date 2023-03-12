@@ -4,13 +4,15 @@ import { Header } from "../components/Header";
 import React from "react";
 import { ModalBackground } from "../components/ModalBackground";
 import { ModalRemovePost } from "../components/ModalRemovePost";
+import { ModalCreatePost } from "../components/ModalCreatePost";
+import { ModalEditPost } from "../components/ModalEditPost";
 
 const Dashboard = () => {
   return (
     <React.Fragment>
       {
         <ModalBackground>
-          <ModalRemovePost />
+          <ModalEditPost />
         </ModalBackground>
       }
       <div className="box-border">

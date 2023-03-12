@@ -1,11 +1,13 @@
-import x from "../assets/X.svg"
 import { Button } from "./Button";
+import x from "../assets/X.svg";
 
 const ModalRemovePost = () => {
   return (
-    <div className="w-full max-w-800 flex flex-col justify-start items-start p-5 bg-custom-gray-9 rounded-lg">
+    <div className="w-full max-w-800 flex flex-col justify-start items-start p-6 bg-custom-gray-9 rounded-lg">
       <div className="w-full flex flex-row justify-between items-center mb-12">
-        <h3 className="text-custom-gray-1 font-medium text-base sm:text-xl">Confirmação de exclusão</h3>
+        <h3 className="text-custom-gray-1 font-medium text-base sm:text-xl">
+          Confirmação de exclusão
+        </h3>
 
         <div className="w-10 h-8 flex flex-row justify-center items-center bg-custom-gray-6 rounded cursor-pointer">
           <img src={x} alt="x" />
@@ -21,7 +23,7 @@ const ModalRemovePost = () => {
         de concluir
       </p>
 
-      <div className="w-full h-20 max-w-302 flex flex-col-reverse justify-between items-start sm:flex-row sm:items-center sm:h-auto">
+      <div className="w-full h-20 flex flex-col-reverse justify-between items-start sm:max-w-302 sm:flex-row sm:items-center sm:h-auto">
         <Button
           text="Cancelar"
           background="bg-custom-gray-6"
